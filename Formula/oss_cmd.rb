@@ -10,7 +10,7 @@ class OssCmd < Formula
   sha256 "cdab0be35c8d4f6f01a094ff60555e6c68e38e7e2e36ec89fc38c9d982c7847c"
 
   # depends_on "cmake" => :build
-  #depends_on "python" # if your formula requires any X11/XQuartz components
+  depends_on "python" # depends on python2
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
